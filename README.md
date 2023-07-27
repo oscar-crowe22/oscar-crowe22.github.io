@@ -1,8 +1,5 @@
-<img src="goal.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px; border-radius: 50%;" />
-
 # Projects:
+---
 
 ### Algorithm Visualizer
 - A Java program that uses multi threading in order to graphically update the proccess of different sorting algorithms. I had taken a paper on data structures and algorithms and always saw videos of visual sorting algorithms so I wanted to try make one myself
