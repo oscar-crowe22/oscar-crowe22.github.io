@@ -1,4 +1,7 @@
+<title>Portfolio</title>
+
 # Projects:
+
 ---
 
 ### Front End Nike Website Mock Up:
