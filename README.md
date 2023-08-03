@@ -17,7 +17,7 @@
 - <strong>Tools Used:</strong> CSS for styling of the webpage, HTML for structure, JS for dynamic loading of content, taking user input and reading in JSON data.
 - A website that contains a data base of NZ birds that can be filtered to the users preference. All the filtering and search functions are done in JS and allow the page to load and delete components depending on user input. 
 
-<img src="nzbirds.png">
+<img src="updateBird.png">
 
 ### Photo Editor
 - <strong>Tools Used:</strong> Java was used to develop the entire application, GIT CI/CD > Pipelines in yaml, JUnit Testing.
