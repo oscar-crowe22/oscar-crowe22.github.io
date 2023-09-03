@@ -7,6 +7,15 @@
 
 ---
 
+### Full Stack Mock Shoe Store
+- <strong>Tools Used:</strong> The app uses server side rendering to allow the site to load user specific content. This is done using .JSP and java .Servelt files to dynamiccly inject java into the html files the web page loads. The data base is hosted on H2 and the java servlets utilize DAO's to query and return information using SQL about user details, stock and http sessions. The website has very minimal styling becuase of the focus on its back end however css was used to syle the components that are there.
+- <strong>Testing:</strong> The app uses hamcrest and junit to provide testing on the DAO classes to make sure data is being written and retrieved correctly in the DB. Furthermore the site provides dynamic feedback to the user if the details they enter are increct or violate a constraint.
+
+|  |  |
+|----------|----------|
+| <img src="fs5.png"> | <img src="fs2.png"> |
+| <img src="fs3.png"> | <img src="fs4.png"> |
+
 ### Front End Nike Website Mock Up:
 - <strong>Tools Used:</strong> CSS for styling of the webpage, HTML for structure.
 - This was one of my early projects focussing on front end development and how web pages are constructed.
