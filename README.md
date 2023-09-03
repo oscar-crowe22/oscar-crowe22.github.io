@@ -9,7 +9,7 @@
 
 ### Full Stack Mock Shoe Store
 - <strong>Tools Used:</strong> The app uses server side rendering to allow the site to load user specific content. This is done using .JSP and java .Servelt files to dynamiccly inject java into the html files the web page loads. The data base is hosted on H2 and the java servlets utilize DAO's to query and return information using SQL about user details, stock and http sessions. The website has very minimal styling becuase of the focus on its back end however css was used to syle the components that are there.
-- <strong>Testing:</strong> The app uses hamcrest and junit to provide testing on the DAO classes to make sure data is being written and retrieved correctly in the DB. Furthermore the site provides dynamic feedback to the user if the details they enter are increct or violate a constraint.
+- <strong>Testing:</strong> The app uses hamcrest and junit to provide testing on the DAO classes to make sure data is being written and retrieved correctly in the DB. Furthermore the site provides dynamic feedback to the user if the details they enter are incorrect or violate a constraint.
 
 |  |  |
 |----------|----------|
@@ -24,7 +24,7 @@
 
 ### Java Photo Editor
 - <strong>Tools Used:</strong> Java was used to develop the entire application.
-- The largest project I've worked on is this non destructive photo editor. The project was group based and foccused heavily on CI/CD pipelines and git integration. We had automated tests running to make sure the program was fucntioning correctly. Using java I developed image proccessing classes, different filters, drawing tools and kernel opperations. The tool can access files on your computer to then load in and perform opperations on, files that have been altered can then be saved locally and worked on later. Overall the entire project contained approximatley 35 files which helped me develop skills to manage larger tasks.
+- The largest project I've worked on is this non destructive photo editor. The project was group based and foccused heavily on CI/CD pipelines and git integration. We had automated tests running to make sure the program was fucntioning correctly. Using java I developed image proccessing classes, different filters, drawing tools and kernel opperations. The tool can access files on your computer to load in and perform opperations on them. Files that have been altered can then be saved locally and worked on later. Overall the entire project contained approximatley 35 files which helped me develop skills to manage larger tasks.
 
 |  |  |
 |----------|----------|
