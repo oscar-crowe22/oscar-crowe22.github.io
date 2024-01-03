@@ -7,6 +7,31 @@
 
 ---
 
+### JSON to CSV convetter
+- <strong>Tools Used:</strong> The program runs in java and uses basic test API's availible on the web to take in HTTP get requests in the form of JSON and then parse through it to convert the data into a csv format. This allows you to interogate the JSON data directly in google sheets or excel in a human readable format. All this is required of the user is to plug in the desired URI and then program will place the resulting request in a csv file which you are able to name in the same working directory.
+- <strong>Bugs:</strong> Currently tbe program struggles to handle multi values inputs. E.g in the example json below Universities can have multiple websites notated with [web1, web2] but the program will only show web1 on the csv file and ignore web2.
+
+<strong>Before:</strong>
+<img src="json.png">
+<strong>After:</strong>
+<img src="excel.png"> 
+
+### Algorithm Visualizer
+- <strong>Tools Used:</strong> Java threads.
+- A Java program that uses multi threading in order to graphically update the proccess of different sorting algorithms. I had taken a paper on data structures and algorithms and always saw videos of visual sorting algorithms so I wanted to try make one myself
+
+<img src="Screen Shot 2023-07-27 at 4.05.58 PM.png"/>
+
+### Photo Editor
+- <strong>Tools Used:</strong> Java was used to develop the entire application.
+- The largest project I've worked on is this non destructive photo editor. The project was group based and foccused heavily on CI/CD pipelines and git integration. We had automated tests running to make sure the program was fucntioning correctly. Using java I developed image proccessing classes, different filters, drawing tools and kernel opperations. The tool can access files on your computer to load in and perform opperations on them. Files that have been altered can then be saved locally and worked on later. Overall the entire project contained approximatley 35 files which helped me develop skills to manage larger tasks.
+
+|  |  |
+|----------|----------|
+| <img src="a1.png"> | <img src="a2.png"> |
+
+<img src="a3.png"> 
+
 ### Full Stack Mock Shoe Store
 - <strong>Tools Used:</strong> The app uses server side rendering to allow the site to load user specific content. This is done using .JSP and java .Servelt files to dynamiccly inject java into the html files the web page loads. The data base is hosted on H2 and the java servlets utilize DAO's to query and return information using SQL about user details, stock and http sessions. The website has very minimal styling becuase of the focus on its back end however css was used to syle the components that are there.
 - <strong>Testing:</strong> The app uses hamcrest and junit to provide testing on the DAO classes to make sure data is being written and retrieved correctly in the DB. Furthermore the site provides dynamic feedback to the user if the details they enter are incorrect or violate a constraint.
@@ -22,16 +47,6 @@
 
 <img src="updateBird.png">
 
-### Java Photo Editor
-- <strong>Tools Used:</strong> Java was used to develop the entire application.
-- The largest project I've worked on is this non destructive photo editor. The project was group based and foccused heavily on CI/CD pipelines and git integration. We had automated tests running to make sure the program was fucntioning correctly. Using java I developed image proccessing classes, different filters, drawing tools and kernel opperations. The tool can access files on your computer to load in and perform opperations on them. Files that have been altered can then be saved locally and worked on later. Overall the entire project contained approximatley 35 files which helped me develop skills to manage larger tasks.
-
-|  |  |
-|----------|----------|
-| <img src="a1.png"> | <img src="a2.png"> |
-
-<img src="a3.png"> 
-
 
 ### Front End Nike Website Mock Up:
 - <strong>Tools Used:</strong> CSS for styling of the webpage, HTML for structure.
@@ -40,8 +55,3 @@
 <img src="Screen Shot 2023-07-27 at 4.12.42 PM.png">
 
 
-### Algorithm Visualizer
-- <strong>Tools Used:</strong> Java threads.
-- A Java program that uses multi threading in order to graphically update the proccess of different sorting algorithms. I had taken a paper on data structures and algorithms and always saw videos of visual sorting algorithms so I wanted to try make one myself
-
-<img src="Screen Shot 2023-07-27 at 4.05.58 PM.png"/>
