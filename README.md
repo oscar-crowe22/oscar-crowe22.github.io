@@ -9,7 +9,7 @@
 
 ### JSON to CSV convetter
 - <strong>Tools Used:</strong> The program runs in java and uses basic test API's availible on the web to take in HTTP get requests in the form of JSON and then parse through it to convert the data into a csv format. This allows you to interogate the JSON data directly in google sheets or excel in a human readable format. All that is required of the user is to plug in the desired URI and then program will place the resulting request in a csv file which you are able to name in the same working directory.
-- <strong>Bugs:</strong> Currently tbe program struggles to handle multi valued inputs. E.g in the example json below Universities can have multiple websites notated with [web1, web2] but the program will only show web1 on the csv file and ignore web2.
+- <strong>Bugs:</strong> Currently the program struggles to handle multi valued inputs. E.g in the example json below Universities can have multiple websites notated with [web1, web2] but the program will only show web1 on the csv file and ignore web2.
 
 <strong>Before:</strong>
 <img src="json.png">
