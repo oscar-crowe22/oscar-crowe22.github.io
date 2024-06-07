@@ -12,15 +12,15 @@
 - <strong>Bugs:</strong> Currently the program struggles to handle multi valued inputs. E.g in the example json below Universities can have multiple websites notated with [web1, web2] but the program will only show web1 on the csv file and ignore web2.
 
 <strong>Before:</strong>
-<img src="json.png">
+<img src="images/json.png">
 <strong>After:</strong>
-<img src="excel.png"> 
+<img src="images/excel.png"> 
 
 ### Algorithm Visualizer
 - <strong>Tools Used:</strong> Java threads.
 - A Java program that uses multi threading in order to graphically update the proccess of different sorting algorithms. I had taken a paper on data structures and algorithms and always saw videos of visual sorting algorithms so I wanted to try make one myself
 
-<img src="Screen Shot 2023-07-27 at 4.05.58 PM.png"/>
+<img src="images/Screen Shot 2023-07-27 at 4.05.58 PM.png"/>
 
 ### Photo Editor
 - <strong>Tools Used:</strong> Java was used to develop the entire application.
@@ -28,9 +28,9 @@
 
 |  |  |
 |----------|----------|
-| <img src="a1.png"> | <img src="a2.png"> |
+| <img src="images/a1.png"> | <img src="images/a2.png"> |
 
-<img src="a3.png"> 
+<img src="images/a3.png"> 
 
 ### Full Stack Mock Shoe Store
 - <strong>Tools Used:</strong> The app uses server side rendering to allow the site to load user specific content. This is done using .JSP and java .Servelt files to dynamiccly inject java into the html files the web page loads. The data base is hosted on H2 and the java servlets utilize DAO's to query and return information using SQL about user details, stock and http sessions. The website has very minimal styling becuase of the focus on its back end however css was used to syle the components that are there.
@@ -38,20 +38,20 @@
 
 |  |  |
 |----------|----------|
-| <img src="fs5.png"> | <img src="fs2.png"> |
-| <img src="fs3.png"> | <img src="fs4.png"> |
+| <img src="images/fs5.png"> | <img src="images/fs2.png"> |
+| <img src="images/fs3.png"> | <img src="images/fs4.png"> |
 
 ### NZ Bird Website:
 - <strong>Tools Used:</strong> CSS for styling of the webpage, HTML for structure, JS for dynamic loading of content, taking user input and reading in JSON data.
 - A website that contains a data base of NZ birds that can be filtered to the users preference. All the filtering and search functions are done in JS and allow the page to load and delete components depending on user input. 
 
-<img src="updateBird.png">
+<img src="images/updateBird.png">
 
 
 ### Front End Nike Website Mock Up:
 - <strong>Tools Used:</strong> CSS for styling of the webpage, HTML for structure.
 - This was one of my early projects focussing on front end development and how web pages are constructed.
 
-<img src="Screen Shot 2023-07-27 at 4.12.42 PM.png">
+<img src="images/Screen Shot 2023-07-27 at 4.12.42 PM.png">
 
 
