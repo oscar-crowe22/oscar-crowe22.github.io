@@ -3,6 +3,9 @@
 # Bio:
 - My Name Is Oscar and I'm currently a second year computer and information science student at Otago. Below are my main projects I've worked on both in and out of University aswell as what tools were used to make them. The main areas I focus in are Java Development, Web Development (HTML, CSS, JS), Back end development with DB's and SQL, Data wrangling and analysis with python and pandas, and a keen focus on lower level concepts working in 6809 assembley, aswell as comftorble use of the terminal, git, pipleines and code test automation.
 
+
+
+
 # Projects:
 
 ---
