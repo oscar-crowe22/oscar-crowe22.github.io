@@ -9,7 +9,7 @@ html {
 
 .about {
     width: 100vw;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     outline: 5px solid  #6cbfd4;
@@ -52,6 +52,13 @@ html {
     font-size: 1vw;
     padding-top: 5px;
     padding-left: 5px;
+}
+
+#main_divider{
+    height: 0.5vw;
+    width: 100%;
+    background-color: #126378;
+    margin-bottom: 20px;
 }
 
 .projects {
